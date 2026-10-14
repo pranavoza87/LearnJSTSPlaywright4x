@@ -1,0 +1,22 @@
+# Block OS metadata and corporate tracking artifacts
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Block local environment variables and access keys
+.env
+.env.local
+*.pem
+*.key
+
+# Block IDE settings that might contain corporate network paths
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Block dependencies and execution packages
+node_modules/
+__pycache__/
+.agy/
